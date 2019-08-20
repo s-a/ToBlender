@@ -1,0 +1,44 @@
+{
+  "name": "toblender",
+  "version": "1.0.0",
+  "description": "Sync python code files with blender",
+  "main": "lib/index.js",
+  "bin": {
+    "toblender": "lib/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chokidar": "^3.0.2",
+    "n-cli": "^1.2.16"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump": "npm version patch && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/ToBlender.git"
+  },
+  "keywords": [
+    "blender",
+    "console",
+    "shell",
+    "terminal",
+    "commandline"
+  ],
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/ToBlender/issues"
+  },
+  "homepage": "https://github.com/s-a/ToBlender#readme"
+}
